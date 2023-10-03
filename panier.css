@@ -6,6 +6,10 @@ header {
     padding: 0px 100px 0px 100px;
 }
 
+main {
+    padding: 0px 100px 0px 100px;   
+}
+
 a {
     text-decoration: none;
 }
@@ -119,7 +123,7 @@ a {
     background: none;
 }
 
-.header_cart {
+.header_mail {
     display: flex;
     width: 15%;
     padding: 10px 0px 10px 0px;
@@ -131,13 +135,13 @@ a {
     background: #B7CE66;
 }
 
-.header_cart_logo {
+.header_mail_logo {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
 }
 
-.header_cart_text {
+.header_mail_text {
     color: #000;
     font-family: Poppins;
     font-size: 13px;
@@ -164,4 +168,226 @@ a {
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
+}
+
+.main_cart {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main_cart_title {    
+    display: flex;
+    width: 13%;
+    padding: 10px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #B7CE66;
+}
+
+.main_cart_text {
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart_items {
+    width: 100%;
+    border-radius: 45px;
+    background: var(--vert-tres-clair, #C8D6A2);
+}
+
+.cart_item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.item_producter {
+    width: 20%;
+    border-radius: 45px;
+    background: var(--vert, #8FB43A);
+}
+
+.producter_title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.producter_image {}
+
+.producter_place {}
+
+.place_logo {}
+
+.place_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.producter_rating {}
+
+.rating_stars {}
+
+.rating_number {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product {
+    width: 20%;
+    border-radius: 50px;
+    border: 2px solid var(--vert, #8FB43A);
+    background: var(--vert-tres-clair, #C8D6A2);
+}
+
+.product_pic {}
+
+.product_bloc {}
+
+.product_title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.product_weight {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+}
+
+.product_weight_price {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+
+.product_price {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.item_settings {
+    width: 50%;
+    border-radius: 50px;
+    background: var(--vert-fonc, #4B5943);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.setting_quantity {}
+
+.quantity_text {}
+
+.quantity_button_less {
+    border-radius: 50px;
+    background: var(--vert, #8FB43A);
+    width: 30px;
+    height: 39px;
+}
+
+.quantity_weight {}
+
+.quantity_button_more {
+    width: 30px;
+    height: 39px;
+    border-radius: 50px;
+    background: var(--vert, #8FB43A);
+}
+
+.item_price {}
+
+.price_text {}
+
+.price_number {}
+
+.item_delivery {}
+
+.delivery_mode {}
+
+.mode_1 {
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+
+.mode_2 {
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+
+.item_order {}
+
+.order_logo {}
+
+.order_text {}
+
+
+
+.footer_bloc {
+    margin-top: 50px;
+    background: #404040;
+    height: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer_title {
+    padding: 0px 60px;
+}
+
+.footer_title_weight {
+    font-weight: 300;
+}
+
+.list_name {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-weight: 300;
+}
+
+.footer_language {
+    display: flex;
+    padding-right: 40px;
+}
+
+.language_text {
+    margin: 5px 15px;
 }
