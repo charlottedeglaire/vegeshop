@@ -10,6 +10,10 @@ main {
     padding: 0px 100px 0px 100px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header_bloc{
     display: flex;
     justify-content: space-between;
@@ -48,6 +52,7 @@ main {
 }
 
 .header_connect_text{
+    color: #000;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -82,6 +87,7 @@ main {
 }
 
 .header_producter_text {
+    color: black;
     font-family: Poppins;
     font-size: 0.9vw;
     font-style: normal;
@@ -515,6 +521,7 @@ main {
 }
 
 .button_text {
+    color: black;
     font-family: Poppins;
     font-size: 1vw;
     font-style: normal;
@@ -672,6 +679,7 @@ main {
 }
 
 .producter_button_text {
+    color: #000;
     font-size: 1.2vw;
     font-style: normal;
     font-weight: 700;
