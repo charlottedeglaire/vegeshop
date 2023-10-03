@@ -21,14 +21,12 @@ a {
 
 .header_bar{
     display: flex;
-    flex-shrink: 0;
     stroke-width: 1px;
     stroke: #808080;
 }
 
 #header_logo{
     color: #000;
-    font-family: Poppins;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -36,7 +34,6 @@ a {
 }
 .header_logo_shop{
     color: #000000;
-    font-family: Poppins;
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
@@ -53,7 +50,6 @@ a {
 
 .header_connect_text{
     color: #000;
-    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
