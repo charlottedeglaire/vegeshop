@@ -729,7 +729,6 @@ a {
     height: 200px;
     display: flex;
     width: 100%;
-    padding: 0px 10px;
     justify-content: space-between;
     align-items: center;
     color: white;
