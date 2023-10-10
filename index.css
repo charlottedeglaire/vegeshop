@@ -849,8 +849,6 @@ a {
         -webkit-text-stroke-color: #4B5943;
     }
     
-    .step_lists {
-    }
     
     .main_steps {
         margin-top: 50px;
@@ -941,9 +939,20 @@ a {
     .engagement_text {
         width: 60%;
     }
-    
-
 
 }
+
+@media screen and (max-width: 930px) {
+
+    header {
+        padding: 0px 30px 0px 30px;
+    }
+    
+    main {
+        padding: 0px 30px 0px 30px;
+    }
+
+}
+@media screen and (max-width: 1441px) {}
 
 
