@@ -1134,6 +1134,14 @@ a {
         height: 380px;
     }
 
+    .best_producter_article {
+        border-radius: 100px;
+    }
+    
+    .best_producter_pic {
+       object-fit: cover;
+    }
+
 }
 
 @media (min-width: 1441px) and (max-width: 2231px) {
